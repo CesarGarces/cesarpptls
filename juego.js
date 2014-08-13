@@ -60,7 +60,7 @@ var contador= ganar-perder;
 	
 	
 	var oport ="Tus oportunidades: "+ pasesU +"<br> Oportinidades JavaScript: "+ pasesS;
-	var textc = "Contador";
+	var textc = "Tabla de resultados";
 	var textcr = "Ganaste: "+ ganar+" Perdiste: "+perder+" Empate: "+ empate + "<br> "+ ganador;
 	document.getElementById('oportunidades').innerHTML=oport;
 	document.getElementById('contador').innerHTML = textc;
@@ -89,12 +89,10 @@ function resultado(opcionUsuario, opcionSistema, respuesta)
 	var usuario = opciones[opcionUsuario];
 	var sitema = opciones[opcionSistema];
 	var src = 'img/'+ sitema +'1.png';
-	var textr = "Resultado";
+	var textr = "Tabla de oportunidades";
 	var text = '<p>'+usuario+' VS '+sitema+'</p>' +'<img src="img/'+usuario+'1.png"/>'+'<span>vs</span>'+'<img src="img/'+sitema+'1.png" /><br>'+respuesta;
 
 	document.getElementById('text').innerHTML = " ";
 	document.getElementById('resultadop').innerHTML = textr;
 	document.getElementById('resultado').innerHTML = text;
 }
-
-	
