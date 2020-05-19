@@ -85,7 +85,7 @@ if (pasesS==0 && pasesU == 0){
 function resultado(opcionUsuario, opcionSistema, respuesta)
 {
 
-	var opciones = ["piedra", "papel", "tijera", "lagarto", "spock"];
+	var opciones = ["Piedra", "Papel", "Tijera", "Lagarto", "Spock"];
 	var usuario = opciones[opcionUsuario];
 	var sitema = opciones[opcionSistema];
 	var src = 'img/'+ sitema +'1.png';
