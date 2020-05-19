@@ -90,7 +90,7 @@ function resultado(opcionUsuario, opcionSistema, respuesta)
 	var sitema = opciones[opcionSistema];
 	var src = 'img/'+ sitema +'1.png';
 	var textr = "Tabla de oportunidades";
-	var text = '<p>'+usuario+' VS '+sitema+'</p>' +'<img src="img/'+usuario+'1.png"/>'+'<span>vs</span>'+'<img src="img/'+sitema+'1.png" /><br>'+respuesta;
+	var text = '<p style="font-size: 50px; color: #67679b;">'+usuario+'  VS '+sitema+'</p>' +'<img src="img/'+usuario+'1.png"/>'+'<span>vs</span>'+'<img src="img/'+sitema+'1.png" /><br>'+respuesta;
 
 	document.getElementById('text').innerHTML = " ";
 	document.getElementById('resultadop').innerHTML = textr;
