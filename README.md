@@ -1,1 +1,1 @@
-Bienvenido a este Repo aca esta el piedra, papel, tijera, lagarto, spock gracias a www.mejorando.la
+Bienvenido a este Repo aca esta el piedra, papel, tijera, lagarto, spock https://cesargarces.github.io/mlvideo/
